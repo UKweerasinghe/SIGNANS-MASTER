@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "22398003804",
+    "firebase_url": "https://signans-master.firebaseio.com",
+    "project_id": "signans-master",
+    "storage_bucket": "signans-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22398003804:android:3c0dc6bba696f97b",
+        "android_client_info": {
+          "package_name": "com.example.im2017.signansmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22398003804-dr97n89q9n2mnha5rsumlqvdmvbdue6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.im2017.signansmaster",
+            "certificate_hash": "aa292c72124cd8c87687111641c8a77d963d6f98"
+          }
+        },
+        {
+          "client_id": "22398003804-4fl97djbsfulmofnf8tura3j4umrqnug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCotfxS8UfANJc8OAz6akEXGWhqlCUL1kE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22398003804-4fl97djbsfulmofnf8tura3j4umrqnug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

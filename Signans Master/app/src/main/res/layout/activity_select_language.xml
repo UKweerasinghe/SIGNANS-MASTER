@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue"
+    tools:context="com.example.im2017.signansmaster.selectLanguage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="normal"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:text="Select output language"
+            android:paddingTop="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:gravity="center">
+
+        <RadioGroup
+            android:id="@+id/radioGroup_l"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="120dp">
+
+            <RadioButton
+                android:id="@+id/radioButton_sinhala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="Sinhala"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton_tamil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="Tamil"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton_english"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="English"
+                android:textSize="20dp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button_langNext"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@color/colorPrimaryDark"
+            android:layout_margin="30dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="Ok" />
+    </LinearLayout>
+</LinearLayout>

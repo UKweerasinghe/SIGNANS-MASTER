@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Signans Master</string>
+    <string name="TRANSLATOR_api" translatable="false">AIzaSyBoNTyXgOnL_-nlU0mdaP3Jd1Zh_-QUaf0</string>
+    <string name="hello">Hello</string>
+</resources>
